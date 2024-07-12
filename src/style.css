@@ -1,0 +1,24 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  /* display: grid; */
+  /* place-items: center; */
+  min-height: 100dvh;
+}
+
+#app {
+  width: 100dvw;
+  height: 100dvh;
+}
+
+canvas {
+  touch-action: none;
+  -ms-touch-action: none;
+}
